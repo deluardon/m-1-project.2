@@ -59,3 +59,20 @@ nav{
 .nav-info > span{
     color: rgb(255, 255, 255);
 }
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(49, 247, 0);
+    color: rgb(102, 102, 102);
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.item-container{
+    margin: auto;
+    text-align: center;
+}
