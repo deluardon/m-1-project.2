@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.navber{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(160, 160, 160);
+}
+.navber li{
+    list-style: none;
+}
+.navber > li a{
+    text-decoration: none;
+}
+.navber > ul{
+    display: flex;
+    gap: 20px;
+    
+}
+.navber > ul > li > a{
+    text-decoration: none;
+
+}
+nav{
+    background-image:linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
+     url("../assets/hero-bg.png")
+    ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 780px;
+}
+
+.nav-info{
+    padding-top: 20%;
+    gap: 20px;
+    justify-content: flex-start;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: white;
+
+}
+.nav-info h1{
+    line-height: 20px;
+    text-align: center;
+    gap: 20px;
+    color: rgb(255, 255, 255);
+}
+.nav-info >p{
+    line-height: 28px;
+    text-align: center;
+    color: rgb(163, 163, 163);
+}
+.nav-info > span{
+    color: rgb(255, 255, 255);
+}
